@@ -9,6 +9,7 @@ header {
   height: 9.6rem;
   background-color: #fdf2e9;
   padding: 0 4.8rem;
+  position: relative;
 }
 .logo {
   width: 22rem;
@@ -286,6 +287,7 @@ strong{
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon{
@@ -368,6 +370,10 @@ strong{
   text-align: center;
 }
 
+.section-price{
+  padding: 9.6rem 0;
+}
+
 .pricing-plan{
   border-radius: 11px;
  
@@ -409,9 +415,10 @@ strong{
 }
 
 .plan-price{
-  font-size: 7.4rem;
+  font-size: 6.2rem;
   font-weight: 600;
   color: #333;
+  margin-bottom: 1.6rem;
 }
 
 .plan-price span{
@@ -467,6 +474,7 @@ strong{
 
 .cta{
   display: grid;
+  /* 2/3 = 6.666 1/3 = 3.333*/
   grid-template-columns: 2fr 1fr;
   background-image: linear-gradient(to right bottom,#eb984e,#cf711f);
   border-radius: 11px;
@@ -537,7 +545,7 @@ background-position: center;
 /***************************/
 .footer {
   padding: 12.8rem 0;
-  border-top: 1px solid rgb(199, 46, 46);
+  border-top: 1px solid #fdf2e9;
 
 }
 
@@ -602,6 +610,25 @@ background-position: center;
   color: #555;
 }
 
+/* Moble  */
+.mobile-nav{
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-icon{
+  width: 4.6rem;
+  height: 4.6rem;
+  color: #333;
+  /* display: none; */
+}
+
+
+.mobile-icon[name="close-outline"]{
+  display: none;
+}
 
 
 

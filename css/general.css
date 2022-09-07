@@ -47,6 +47,7 @@ Default: 1
   
   html {
     font-size: 62.5%;
+    overflow-x: hidden;
   }
   
   body {
@@ -55,6 +56,7 @@ Default: 1
     line-height: 1;
     color: #555;
     /* background-color: #fff; */
+    overflow-x: hidden;
   }
   
   /***********************************/
@@ -104,7 +106,7 @@ Default: 1
     text-decoration: none;
     padding: 16px 32px;
     border-radius: 9px;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 600;
     transition: all 1s;
 
